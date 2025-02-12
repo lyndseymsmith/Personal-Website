@@ -1,0 +1,7 @@
+nav {
+    display: flex;
+    right: 0;
+    background-color: aqua;
+    padding: 10px;
+    position: fixed;
+}
