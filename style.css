@@ -1,7 +1,41 @@
+/* Colors Used:
+    Davy's gray #5A5353
+    Mountbatten pink #A07178
+    Pale Dogwood #E6CCBE
+    Chinese Violet #776274
+    Sage #C8CC92
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  background-color: #776274;
+}
+
 nav {
-    display: flex;
-    right: 0;
-    background-color: aqua;
-    padding: 10px;
-    position: fixed;
+  display: flex;
+  right: 0;
+  padding: 10px;
+  position: fixed;
+}
+
+nav a {
+  padding: 5px;
+  font-weight: bold;
+  font-family: "Mona Sans", serif;
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+nav a:hover {
+  color: #a07178;
+}
+
+h1 {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
 }
