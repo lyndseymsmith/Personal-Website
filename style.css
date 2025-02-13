@@ -15,7 +15,7 @@ nav {
   display: flex;
   right: 0;
   padding: 10px;
-  position: fixed;
+  position: absolute;
 }
 
 nav a {
@@ -49,9 +49,10 @@ h2 {
 
 h3 {
   font-family: "Poppins", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   color: #a07178;
+  margin-top: 0;
 }
 
 p {
@@ -63,16 +64,25 @@ p {
 }
 
 .Contacts {
-  font-family: "Poppins", serif;
-  font-weight: 300;
-  font-style: normal;
   background-color: #717744;
   padding: 20px;
-  }
+}
+
+.Contacts a {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #151414;
+  text-decoration: none;
+}
+
+.Contacts a:hover {
+  color: #383b22;
+}
 
 .quote {
   display: block;
-  
+
   padding: 2em;
   margin-top: 50px;
   margin-left: auto;
@@ -83,18 +93,50 @@ p {
   font-style: normal;
   font-size: 20px;
   color: #383b22;
-  background-color: #E6CCBE;
+  background-color: #e6ccbe;
 }
 
 .headshot {
   border-radius: 100%;
   max-width: 50%;
   height: auto;
-  margin-left: 30px;
+  margin-left: 100px;
+  margin-right: 0;
 }
 
 .home div {
   display: inline-block;
   vertical-align: middle;
   width: 48%;
+}
+
+.project {
+  padding: 20px;
+  margin: 30px auto;
+  width: 80%;
+  max-width: 900px;
+  border-radius: 5px;
+  background-color: #717744;
+}
+
+.project-content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 20px;
+}
+
+.project-content img {
+  width: auto;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.project h3 {
+  color: #151414;
+}
+
+.about-p {
+  width: 80%;
+  margin: 50px auto;
 }
