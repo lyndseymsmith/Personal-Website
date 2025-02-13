@@ -39,3 +39,36 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
+
+h2 {
+  font-family: "Mona Sans", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Mona Sans", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+p {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.Contacts {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;    
+}
+
+.quote {
+  display: block;
+  background-color: #E6CCBE;
+  padding: 1em;
+ margin: auto;
+  width: 60%;
+}
