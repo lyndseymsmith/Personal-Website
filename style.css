@@ -81,9 +81,10 @@ p {
   color: #383b22;
 }
 
+/*Home Page*/
+
 .quote {
   display: block;
-
   padding: 2em;
   margin-top: 50px;
   margin-left: auto;
@@ -94,7 +95,7 @@ p {
   font-style: normal;
   font-size: 20px;
   color: #383b22;
-  background-color: #e6ccbe;
+  background-image: ;
 }
 
 .headshot {
@@ -110,6 +111,10 @@ p {
   vertical-align: middle;
   width: 48%;
 }
+
+
+
+/*Portfolio Page*/
 
 .project {
   padding: 20px;
@@ -142,6 +147,8 @@ p {
   margin: 50px auto;
 }
 
+/*Contact Me Page*/
+
 .contactForm div{
   font-family: "Poppins", serif;
   font-weight: 500;
@@ -164,4 +171,11 @@ input[type="submit"]
   font-style: normal;
   font-size: 16px;
   width: 100px;
+  border-radius: 510px;
+  border: none;
+
+}
+
+input[type="submit"]:hover{
+  background-color: #383b22;
 }
