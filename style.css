@@ -45,6 +45,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   color: #a07178;
+  margin-left: 15px;
 }
 
 h3 {
@@ -139,4 +140,28 @@ p {
 .about-p {
   width: 80%;
   margin: 50px auto;
+}
+
+.contactForm div{
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #a07178;
+    
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 50%;
+  
+}
+
+input[type="submit"]
+{
+  background-color: #717744;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  width: 100px;
 }
