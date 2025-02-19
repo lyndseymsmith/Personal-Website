@@ -22,20 +22,28 @@
     </header>
     <h2>Contact Me</h2>
 
-    <section>
-        <form>
-            <label for="name">Name :</label>
-            <input type="text" id="form"/>
+    <section class="contactForm">
+      <form>
+        <div>
+          <label for="name">Name :</label>
+          <input type="text" id="form" />
+        </div>
 
-            <label for="email">Email :</label>
-            <input type="email" id="form"/>
+        <div>
+          <label for="email">Email :</label>
+          <input type="email" id="form" />
+        </div>
 
-            <h3>Message :</h3>
-            <textarea rows="10"> </textarea>
+        <div class="messageBox">
+          <label for="message">Message :</label>
+          <textarea rows="10"> </textarea>
+        </div>
 
-            <input type="submit" value="Submit"/>
-        </form>
-
+        <div>
+          <input type="submit" value="Submit" id="submit"/>
+        </div>
+        
+      </form>
     </section>
   </body>
 </html>
