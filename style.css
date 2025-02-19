@@ -83,6 +83,28 @@ p {
 
 /*Home Page*/
 
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.headshot {
+  border-radius: 50%;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+}
+
+.home div{
+  flex: 1;
+  min-width: 250px;
+}
+
 .quote {
   position: relative;
   display: block;
@@ -99,9 +121,10 @@ p {
   text-align: center;
   background: none;
   z-index: 1;
+  margin-top: 20px;
 }
 
-.quote::before{
+.quote::before {
   content: "";
   position: absolute;
   top: 0;
@@ -112,22 +135,6 @@ p {
   opacity: 0.3;
   z-index: -1;
 }
-
-.headshot {
-  border-radius: 100%;
-  max-width: 50%;
-  height: auto;
-  margin-left: 100px;
-  margin-right: 0;
-}
-
-.home div {
-  display: inline-block;
-  vertical-align: middle;
-  width: 48%;
-}
-
-
 
 /*Portfolio Page*/
 
@@ -164,22 +171,20 @@ p {
 
 /*Contact Me Page*/
 
-.contactForm div{
+.contactForm div {
   font-family: "Poppins", serif;
   font-weight: 500;
   font-style: normal;
   color: #a07178;
-    
+
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
   margin-left: 20px;
   width: 50%;
-  
 }
 
-input[type="submit"]
-{
+input[type="submit"] {
   background-color: #717744;
   font-family: "Poppins", serif;
   font-weight: 500;
@@ -188,9 +193,8 @@ input[type="submit"]
   width: 100px;
   border-radius: 510px;
   border: none;
-
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover {
   background-color: #383b22;
 }
