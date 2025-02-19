@@ -81,35 +81,62 @@ p {
   color: #383b22;
 }
 
-.quote {
-  display: block;
+/*Home Page*/
 
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.headshot {
+  border-radius: 50%;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+}
+
+.home div{
+  flex: 1;
+  min-width: 250px;
+}
+
+.quote {
+  position: relative;
+  display: block;
   padding: 2em;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
   font-family: "Poppins", serif;
-  font-weight: 300;
   font-style: normal;
   font-size: 20px;
-  color: #383b22;
-  background-color: #e6ccbe;
+  font-weight: 500;
+  color: #717744;
+  text-align: center;
+  background: none;
+  z-index: 1;
+  margin-top: 20px;
 }
 
-.headshot {
-  border-radius: 100%;
-  max-width: 50%;
-  height: auto;
-  margin-left: 100px;
-  margin-right: 0;
+.quote::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("code-background.jpg") center center/cover;
+  opacity: 0.3;
+  z-index: -1;
 }
 
-.home div {
-  display: inline-block;
-  vertical-align: middle;
-  width: 48%;
-}
+/*Portfolio Page*/
 
 .project {
   padding: 20px;
@@ -142,26 +169,32 @@ p {
   margin: 50px auto;
 }
 
-.contactForm div{
+/*Contact Me Page*/
+
+.contactForm div {
   font-family: "Poppins", serif;
   font-weight: 500;
   font-style: normal;
   color: #a07178;
-    
+
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
   margin-left: 20px;
   width: 50%;
-  
 }
 
-input[type="submit"]
-{
+input[type="submit"] {
   background-color: #717744;
   font-family: "Poppins", serif;
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
   width: 100px;
+  border-radius: 510px;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #383b22;
 }
