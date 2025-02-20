@@ -32,6 +32,12 @@ nav a:hover {
   color: #383b22;
 }
 
+@media (max-width: 500px) {
+  nav a {
+    font-size: 10px;
+  }
+}
+
 h1 {
   font-family: "Beth Ellen", serif;
   font-weight: 400;
@@ -198,3 +204,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #383b22;
 }
+
